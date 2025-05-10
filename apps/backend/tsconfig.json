@@ -1,0 +1,23 @@
+{
+  "compilerOptions": {
+    "target": "es2020",
+    "module": "ES2022",
+    "moduleResolution": "bundler",
+    "esModuleInterop": true,
+    "forceConsistentCasingInFileNames": true,
+    "strict": true,
+    "skipLibCheck": true,
+    "outDir": "./dist",
+    "rootDir": "./src",
+    "baseUrl": ".",
+    "paths": {
+      "@flowforge/shared-utils": ["../../packages/shared-utils/dist"]
+    }
+  },
+  "include": [
+    "src/**/*", 
+    "@flowforge/shared-utils/**/*",
+    "@flowforge/shared-utils/src/**/*"  
+  ],
+  "exclude": ["node_modules"],
+}
