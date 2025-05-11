@@ -63,7 +63,3 @@ Each workspace includes the following scripts:
 - `test`: Run tests (when implemented)
 - `clean`: Clean build artifacts
 - `check-types`: Run TypeScript type checking
-
-## License
-
-[MIT](LICENSE)
